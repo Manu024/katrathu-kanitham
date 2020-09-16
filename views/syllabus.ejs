@@ -1,0 +1,9 @@
+<%- include('partials/header') -%>
+
+    <% files.map(file => { %>
+      <div class="pdf">
+          <h2> Click to download :- <a href="<%= file.url %>"><%= file.name %>.pdf</a></h2>
+      </div>
+    <% }) %>
+<%- include('partials/videos')%>
+<%- include('partials/footer')-%>

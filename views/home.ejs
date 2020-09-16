@@ -1,0 +1,27 @@
+<%- include('partials/header') -%>
+<div  class="class10-container">
+    <div class="class10">
+        <em>Click for</em>
+        <a href="./chapters">SSLC Maths</a>
+        <span id="LSL">Lets Start Learning</span>
+        <p style="color:grey; font-size:medium">Here Video lectures, study notes, live doubt classes & more... </p>
+    </div>
+    <blockquote >
+        <em>
+        Education is the manifestation of the perfection already in man.
+        </em>
+    </blockquote>
+</div>
+<%- include('partials/videos') -%>
+<div id="fbcontainer">
+    <h2>Leave Us Feedback</h2>
+    <div>
+        <form action="/" method="post">
+            <p><%= msg %></p>
+            <textarea name="data" id="tarea" cols="30" rows="10"></textarea>
+            <button  name="btn" type="submit" id="fbbtn">Send</button>
+        </form>
+    </div>
+</div>
+
+<%- include('partials/footer') -%>
