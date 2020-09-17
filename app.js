@@ -6,7 +6,7 @@ const path = require('path');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const app = express();
 const dirPath = path.join(__dirname, "public/pdfs");
 const files = fs.readdirSync(dirPath).map(name => {
