@@ -105,7 +105,7 @@ app.get("/about", (req, res) => {
 app.get("/contact", (req, res) => {
     res.render("contact");
 });
-//Syllabus route _Temporarily  Hidden
+//Syllabus route 
 app.get("/syllabus", (req, res) => {
     res.render("syllabus", { files });
     
